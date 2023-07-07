@@ -84,6 +84,57 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Styles */
+header {
+  background-color: #1da1f2;
+  padding: 15px;
+  color: white;
+}
+
+h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+/* Main Content Styles */
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+}
+
+/* Tweet Styles */
+.tweet {
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+}
+
+.tweet .avatar {
+  float: left;
+  margin-right: 10px;
+}
+
+.tweet .content {
+  overflow: hidden;
+}
+
+.tweet .username {
+  font-weight: bold;
+}
+
+.tweet .timestamp {
+  color: #888;
+  font-size: 12px;
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -244,4 +295,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-
