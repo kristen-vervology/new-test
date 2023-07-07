@@ -120,6 +120,7 @@ h1 {
 .tweet .avatar {
   float: left;
   margin-right: 10px;
+  width: 60px;
 }
 
 .tweet .content {
